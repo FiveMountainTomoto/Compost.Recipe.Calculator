@@ -1,0 +1,250 @@
+
+QMainWindow {
+    font-family: 'Segoe UI', sans-serif;
+    
+    }
+
+
+/* Frame */
+QFrame {
+    background-color: #2d2d2d;
+    border-width:3px;
+    border-color: white;
+}
+
+
+
+/* QPlainTextEdit */
+QPlainTextEdit {
+	border-bottom-width: 3px;
+	border-bottom-style: solid;
+	border-bottom-color: #4C7C66;
+    border-radius: 5px;
+	background-color: #3c4543;
+	color: #d3dae3;
+}
+
+/* QLabel */
+
+QLabel {
+	color: #d3dae3;
+    font-weight: bold;
+}
+
+
+/* QGroupBox */
+QGroupBox::title {
+    font-size: 12px;
+    font-weight: bold;
+    color:white;
+
+}
+
+/* QPushButton */
+QPushButton{
+	border-style: solid;
+	border-color: #3C4543;
+	border-width: 2px;
+	border-radius: 15px;
+	color: white;
+	padding: 6px,6px,8px,8px;
+	background-color: #373A39;
+    font-weight:bold;
+}
+
+QPushButton:title{
+    padding:2px;
+}
+
+QPushButton:hover{
+	border-style: solid;
+	border-color: #529c74;
+	border-width: 2px;
+	border-radius: 6px;
+	color: #d3dae3;
+	padding: 4px;
+	background-color: #41504D;
+}
+
+QPushButton:disabled{
+	border-style: solid;
+    border-color: #3A403E;
+	border-width: 1px;
+	border-radius: 15px;
+	color: #808086;
+	padding: 4px;
+	background-color: #52595d;
+}
+
+QPushButton#pBStart, QPushButton#pBRestart{
+	border-radius: 15px;
+    width: 120px;
+	padding: 6px,6px,15px,12px;
+}
+
+
+/* QLineEdit */
+
+QLineEdit {
+	border-width: 2px;
+    border-radius: 8px;
+	border-style: solid;
+	border-color: #529c74;
+	background-color: #3A403E;
+	color: white;
+    font-weight:bold;
+;
+}
+QLineEdit:focus{
+    border-width: 1px;
+    border-radius: 8px;
+    border-style: solid;
+    border-color: #4C7C66;
+    background-color: #373a39;
+    color: white;
+}
+QLineEdit:disabled {
+    border-style: solid;
+    border-color: #3A403E;
+	border-width: 1px;
+	border-radius: 15px;
+	color: #808086;
+	padding: 4px;
+	background-color: #52595d;
+}
+
+
+/* QSpinBox */
+QSpinBox{
+    color: white;
+    background-color:#373A39;
+    border-style: solid;
+    border-width: 2px;
+    border-color: #4C7C66;
+    border-top-right-radius: 7px;
+    border-bottom-right-radius: 7px;
+    
+
+}
+
+QSpinBox::up-button {
+    subcontrol-origin: padding;
+    subcontrol-position: top right;
+    width: 15px;
+    color: #4C7C66;
+    border-width: 1px;
+    border-color: #3C4543;
+    border-style: solid;
+    border-top-right-radius: 3px;
+    padding: 3px;
+    background-color:#373A39;
+}
+QSpinBox::down-button{
+    subcontrol-origin: padding;
+    subcontrol-position: bottom right;
+    width: 15px;
+    color: #272727;
+    border-width: 1px;
+    border-color: #3C4543;
+    border-style: solid;
+    border-bottom-right-radius: 3px;
+    padding: 3px;
+    background-color:#373A39;
+}
+
+QSpinBox::up-button:hover {
+    color:#4C7C66;
+    border-top-right-radius: 5px;
+    background-color: #529C74;
+    
+}
+QSpinBox::down-button:hover {
+    color: #FFFFFF;
+    border-bottom-right-radius: 5px;
+    background-color: #529C74;
+}
+
+
+
+/* QProgressBar */
+
+QProgressBar {
+	text-align: center;
+	color: #d3dae3;
+	border-radius: 5px;
+    padding:4px;
+    height:1px;
+	border-color: transparent;
+	background-color: #52595d;
+}
+QProgressBar::chunk {
+	background-color: #71b555	;
+	border-radius: 10px;
+}
+
+
+/* QComboBox */
+
+QComboBox {
+    border-width: 2px;
+    border-radius: 8px;
+    border-style: solid;
+    border-color: #3C4543;
+    background-color:#373A39;
+    color: white;
+    font-weight:12px;
+    font-weight:bold;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+QComboBox:editable {
+    background: #373A39;
+}
+QComboBox::drop-down {
+
+    subcontrol-position: top right;
+    width: 10px;
+    height:27px;
+    color: #272727;
+    border-left-color: #3C4543;
+    border-left-style: solid;
+    border-top-right-radius: 3px;
+    border-bottom-right-radius: 3px;
+    background-color:#529c74;
+}
+
+QComboBox QAbstractItemView {
+    selection-background-color: 4C7C66;
+    selection-color: #272727;
+    color: white;
+    font-weight:bold;
+    background: #373A39;
+}
+
+
+
+/* Close Min Info Buttons */
+QPushButton#pBClose,QPushButton#pBMin,QPushButton#pbInf{
+	border: none;
+    border-radius:10px;
+    padding:2px;
+}
+QPushButton#pBClose{
+	background-color: red;
+}
+
+QPushButton#pBMin{
+	background-color: #008000;
+}
+QPushButton#pbInf{
+	background-color: #FFFF00;
+}
+
+
+QPushButton#pBClose:hover,QPushButton#pBMin:hover,QPushButton#pbInf:hover{
+    border-radius:8px;
+    padding:6px;
+
+}
+
+
