@@ -1,6 +1,5 @@
 <h1 align="center">COMPOST RECIPE CALCULATOR</h1>
-![COMPOST RECIPE CALCULATOR Logo](CRC.ico)
-It is a Desktop GUI application that utilizes a mathematical approach to balance the moisture and C: N ratio in the initial mixture
+It is a Desktop GUI application that utilizes a mathematical approach to balance the moisture and C: N ratio in the initial mixture.
 
 # Description
 
